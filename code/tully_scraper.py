@@ -4,6 +4,9 @@ from menuitemextractor import extract_menu_item
 from menuitem import MenuItem
 import pandas as pd
 
+# Hello there! This is a scraper for Tully's Good Times menu.
+# It extracts menu items and their details from the website and saves them to a CSV file.
+
 def tullyscraper(playwright: Playwright) -> None:
     browser = playwright.chromium.launch(headless=False)
     context = browser.new_context()

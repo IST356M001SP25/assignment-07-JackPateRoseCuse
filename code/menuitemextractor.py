@@ -5,6 +5,8 @@ if __name__ == "__main__":
 else:
     from code.menuitem import MenuItem
 
+# These are functions that can be used to extract menu items from a scraped text.
+
 
 def clean_price(price:str) -> float:
     price = price.replace("$", "")
