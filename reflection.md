@@ -1,7 +1,7 @@
 # Reflection
 
-Student Name:  name
-Sudent Email:  email
+Student Name:  Jackson Rosenthal 
+Sudent Email:  jrosen27@syr.edu
 
 ## Instructions
 
@@ -22,4 +22,5 @@ Examples:
 **Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
 
 `--- Reflection Below This Line ---`
+In this assignment, I struggled most with the final playwright code attempting to extract all the appetizers from Tully's, especially with finding the exact headers from the website itself, and I still need to work on my ability to read and understand HTML files, and all the different types inside of them as well. The functions for me I understood what I needed to do pretty strongly however, and am glad to know I can create them effectively. 
 
