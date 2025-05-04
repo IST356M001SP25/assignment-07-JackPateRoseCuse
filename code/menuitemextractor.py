@@ -8,12 +8,15 @@ else:
 
 def clean_price(price:str) -> float:
     price = price.replace("$", "")
+    # make it into a numeric variable
     price = price.replace(",", "")
+    # make it into a float
     return float(price)
 
 def clean_scraped_text(scraped_text: str) -> list[str]:
     items = scraped_text.split("\n")
     cleaned = []
+    # create an empty dataset to later append information into
     for item in items:
         if item in ['GS', "V", "S", "P"] or item.startswith("NEW") or len(item.strip()) == 0:
             continue
